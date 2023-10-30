@@ -1137,28 +1137,6 @@
             ],
             "expression": "CALCULATE([TotalprofitM1],FILTER(sales,sales[Product line]=\"sports and travel\"))",
             "lineageTag": "4d2b4711-6fac-4997-802a-4abf2e51791b"
-          },
-          {
-            "name": "newmeasurefromdesktop",
-            "annotations": [
-              {
-                "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
-              }
-            ],
-            "expression": "[TotalSalesM1]",
-            "lineageTag": "cf8be455-7c9f-4c05-9ecc-417d395cac3f"
-          },
-          {
-            "name": "newtestmeasure",
-            "annotations": [
-              {
-                "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
-              }
-            ],
-            "expression": "[newmeasurefromdesktop]*5",
-            "lineageTag": "18ddc8ed-02ef-4b54-a3a4-08f252dff290"
           }
         ],
         "partitions": [
